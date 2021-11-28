@@ -3,10 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import styles from './Message.modules.css';
+
+const text = 'React';
+
+const Message = (props) => {
+    return <p className={styles.color}>{props.text}</p>;
+};
+
+const Homework=()=>{
+    return(
+        <div>
+            <h1 >Homework-1</h1>
+            <Message  text={text}/>
+        </div>
+    )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Homework />
   </React.StrictMode>,
   document.getElementById('root')
 );

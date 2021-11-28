@@ -1,0 +1,21 @@
+.color {
+    border-radius: 20px;
+    color: blue;
+    border: 3px solid black;
+    padding: 30px;
+}
+.h1 {
+    color:dodgerblue;
+}
+p {
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #686767;
+    padding: 20px 0;
+}
+h1 {
+    text-align: center;
+    color: #ff0000;
+    background-color: #e7e7e7;
+}
