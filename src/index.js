@@ -14,7 +14,7 @@ const Message = (props) => {
 const Homework=()=>{
     return(
         <div>
-            <h1 >Homework-1</h1>
+            <h1 >Homework-2</h1>
             <Message  text={text}/>
         </div>
     )
